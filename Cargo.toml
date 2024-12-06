@@ -1,0 +1,11 @@
+[package]
+name = "Plinko"
+version = "0.1.0"
+edition = "2021"
+
+rust-version = "1.73"
+
+[dependencies]
+crossbeam = "0.8.4"
+macroquad = { version = "0.3.26", default-features = false }
+rand = "0.8.5" # Use the latest compatible version
